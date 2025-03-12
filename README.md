@@ -1,8 +1,6 @@
 # ContentTransition
 
-![mac128](Images/mac128.png) This is the Starter project for the video on SwiftUI ContentTransitions
-
-Video Release Date: April 27
+![mac128](Images/mac128.png) This is the Completed source code for the video on SwiftUI ContentTransitions
 
 If you want to support my work, you can - </br>
 
