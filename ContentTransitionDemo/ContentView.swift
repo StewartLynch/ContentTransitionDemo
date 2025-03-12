@@ -18,14 +18,53 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var number = 0
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack{
+                GroupBox(".numericText"){
+                    HStack {
+                        Text("\(number)")
+                            .font(.system(size: 50))
+                            .monospacedDigit()
+                            .frame(width: 100, height: 100)
+                            .background(RoundedRectangle(cornerRadius: 10).stroke(lineWidth: 1))
+                        HStack {
+                            Button {
+                                number -= 1
+                            } label: {
+                                Image(systemName: "minus")
+                                    .frame(width: 30, height: 30)
+                            }
+                            Button {
+                                number += 1
+                            } label: {
+                                Image(systemName: "plus")
+                                    .frame(width: 30, height: 30)
+                            }
+                        }
+                        .font(.largeTitle)
+                        .buttonStyle(.borderedProminent)
+                    }
+                }
+                GroupBox(".symbolEffect"){
+                    
+                }
+                GroupBox(".opacity"){
+                    
+                }
+                GroupBox(".interpolate"){
+                    
+                }
+                GroupBox(".symbolEffect with options"){
+                    
+                }
+                
+                Spacer()
+            }
+            .padding()
+            .navigationTitle("ContentTransition")
         }
-        .padding()
     }
 }
 
