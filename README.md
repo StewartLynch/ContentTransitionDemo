@@ -2,7 +2,9 @@
 
 ![mac128](Images/mac128.png) This is the Starter project for the video on SwiftUI ContentTransitions
 
-Video Release Date: April 27
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ByKmfwrclRA
+" target="_blank"><img src="http://img.youtube.com/vi/ByKmfwrclRA/0.jpg" 
+alt="Content Transition" width="480" height="360" border="1" /></a>
 
 If you want to support my work, you can - </br>
 
